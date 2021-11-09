@@ -12,10 +12,10 @@ namespace Kvant
         #region Basic Settings
 
         [SerializeField]
-        int _lineCount = 128;
+        public int _lineCount = 128;
 
         [SerializeField]
-        int _historyLength = 128;
+        public int _historyLength = 128;
 
         [SerializeField, Range(0, 1)]
         float _throttle = 1.0f;
@@ -157,8 +157,6 @@ namespace Kvant
             set { _lineWidthRandomness = value; }
         }
 
-        public enum ColorMode { Random, Smooth }
-
         [SerializeField]
         ColorMode _colorMode = ColorMode.Random;
 
@@ -220,13 +218,13 @@ namespace Kvant
         #region Misc Settings
 
         [SerializeField]
-        bool _fixTimeStep = false;
+        public bool _fixTimeStep = false;
 
         [SerializeField]
-        float _stepsPerSecond = 60;
+        public float _stepsPerSecond = 60;
 
         [SerializeField]
-        int _randomSeed = 0;
+        public int _randomSeed = 0;
 
         #endregion
 
@@ -557,4 +555,5 @@ namespace Kvant
 
         #endregion
     }
+    public enum ColorMode { Random, Smooth }
 }

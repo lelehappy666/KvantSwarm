@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83f255bc9a35d141b90c51095ce439a, type: 3}
+  m_Name: "\u4E92\u52A8"
+  m_EditorClassIdentifier: 
+  lineCount: 0
+  historyLength: 0
+  throttle: 0
+  flowVector: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  attractorRadius: 0
+  forcePerDistance: 0
+  forceRandom: 0
+  drag: 0
+  amplitude: 0
+  frequency: 0
+  spread: 0
+  motion: 0
+  swirlAmplitude: 0
+  swirlFrequency: 0
+  lineWidth: 0
+  lineWidthRandomness: 0
+  colorMode: 0
+  color_1: {r: 0, g: 0, b: 0, a: 0}
+  color_2: {r: 0, g: 0, b: 0, a: 0}
+  metallic: 0
+  smoothness: 0
+  castingMode: 0
+  receiveShadows: 0
+  fixTimeStep: 0
+  stepsPerSecond: 0
+  randomSeed: 0
